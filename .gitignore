@@ -1,0 +1,13 @@
+# next files
+.next
+
+# dependecies
+/node_modules
+
+# enviroment (key, password etc.)
+.env
+
+# yarn/npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

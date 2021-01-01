@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "pre-commit": "yarn tsc && yarn lint",
+    "pre-push": "yarn tsc && yarn lint",
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './commitlint.js'"
+  }
+}
